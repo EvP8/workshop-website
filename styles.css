@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 
+:root {
+    --white: #fff;
+    --brand-green: #00856F;
+    --purple: #60267F;
+}
+
 .fontRoboto {
     font-family: "Roboto", sans-serif;
 }
@@ -20,12 +26,12 @@
     flex-direction: column;
 }
 .headerTwo {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #000;
 }
 
 .topLine {
-    background-color: #60267F;
+    background-color: var(--purple);
     text-align: center;
     color: #fff;
     font-size: 12px;
@@ -104,7 +110,7 @@
 
 }
 .firstPhoneContainer {
-    height: 500px;
+    height: 500px;  
 }
 .relative {
     position:relative;
@@ -113,6 +119,7 @@
 .absolute {
     position:absolute;
 }
+
 .smallElipse {
     top:65px;
 }
@@ -121,12 +128,14 @@
 }
 .collabWord{
     top:175px;
+    width: 90px;
+
 }
 .elipseBtn {
     top: 363px;
     width: 147px;
     padding: 4px 14px;
-    color: #60267F;
+    color: #9A54BC;
     border: 2px solid #9A54BC;
     border-radius:5px;
     background-color:#fff;
@@ -190,7 +199,7 @@ box-shadow: 0px 11px 10px -14px #000000;
     margin-top: 30px;
 }
 
-.paraContainer {
+.paraContainer p {
     background-color: #f2f2f2;
     padding: 1rem;
 }
@@ -246,4 +255,102 @@ box-shadow: 0px 11px 10px -14px #000000;
 .projectDoneCardHeader {
     color: #60267F;
     font-weight: 500;
+}
+
+.bigCardsContainer {
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.bigCardsTopPara {
+    font-size: 12px;
+    color: #A79D9D;
+}
+
+.monthlyYearlyContainer {
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 16px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.monthly {
+    color: #A79D9D;
+}
+
+.yearly {
+    font-weight: 500;
+}
+
+.discount {
+    background-color: #FFE87A;
+    font-size: 10px;
+    padding: 2px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.threeBigCardsContainer {
+    gap: 50px;
+}
+
+.bigCard {
+    width: 250px;
+    height: 450px;
+    border: 0.5px solid #AAAAAA;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 14px;
+}
+
+.bigCard p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bigCard button {
+    padding: 15px 20px;
+    background-color: white;
+    border: 2px solid #2B0236;
+    color: #2B0236;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.bigCard button:hover {
+    background-color: #2B0236;
+    color: white; 
+    border: 2px solid #360227;
+    border-radius: 5px; 
+}
+
+.bigCardListContainer {
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.bigCardListContainer li {
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.bigCardListContainer li::marker {
+    content: "▶";
+    padding: 5px;
+}
+
+.cardThree {
+    background-color: #56E6A5;
+}
+
+.cardThree .cardThreePara {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
 }
