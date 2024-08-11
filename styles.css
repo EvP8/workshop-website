@@ -6,7 +6,8 @@
 }
 :root {
     --white: #fff;
-    --brand-green: #00856f;
+    --brand-green: #00856F;
+    --purple: #60267F;
 }
 .fontRoboto {
     font-family: "Roboto", sans-serif;
@@ -174,8 +175,8 @@
     border-radius: 5px;
     padding: 5px 2px;
     gap: 5px;
-    -webkit-box-shadow: 0px 11px 10px -14px #000000; 
-box-shadow: 0px 11px 10px -14px #000000;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 15px 19px 17px -25px rgba(0,0,0,0.03); 
+    box-shadow: 0px 10px 13px -7px #000000, 15px 19px 17px -25px rgba(0,0,0,0.03);
 }
 .buttonContainer > button {
     width: 50%;
@@ -329,14 +330,39 @@ box-shadow: 0px 11px 10px -14px #000000;
     content: "▶";
     }
 .CardThree {
-    background-color: #56E6A5
-    ;
+    background-color: #56E6A5;
 }
 .CardThree > .cardThreePara {
     color: #000000a6;
 }
 
+.starsContainer {
+    margin-top: 40px;
+    padding: 50px 0;
+    gap: 20px;
+}
 
+.stars{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.arrowsContainer {
+    gap: 80px;
+}
+
+.arrowsContainer p {
+    margin-top: 40px;
+    width: 800px;
+    height: 135px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.face p {
+    margin-top: 8px;
+}
 
   
     
