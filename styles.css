@@ -451,3 +451,52 @@
     top: 15%;
     left: 80%;
 }
+
+.downloadAppsContainer {
+    margin-top: 135px;
+    background-color: #9A54BC ;
+    width: 100%;
+
+}
+
+.appTitle {
+    margin-top: 150px;
+    font-size: 3rem;
+    color: #F2F2F2
+}
+
+.appBtnContainer {
+    margin-top: 70px;
+    width: 50%;
+    gap: 40px;
+    align-items:center;
+    margin-bottom: 150px;  
+}
+
+.btn1,
+.btn2 {
+    color: #9A54BC;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: #9A54BC;
+    color: #fff;
+}
+
+.btn1:hover {
+    color: #fff;
+    background-color: #9A54BC;
+}
+
+.btn2:hover {
+    color: #9A54BC;
+    background-color: #fff;
+}
+
